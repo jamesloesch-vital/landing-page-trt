@@ -175,7 +175,7 @@ button {
 .hero-image {
     display: block;
     width: auto;
-    height: 450.46px;
+    height: 550px;
 }
 
 /* Responsive Styles (Example for Hero) */
@@ -647,7 +647,7 @@ button {
 .checkout-image {
     display: block;
     width: auto; /* Set specific width */
-    height: 430.69px; /* Set specific height */
+    height: 550px; /* Set specific height */
 }
 
 .checkout-content-col {
