@@ -14,7 +14,9 @@
     font-style: normal;
 }
 
-body {
+body, html {
+    width: 100%;
+    max-width: 100vw;
     font-family: 'LT Superior', sans-serif;
     margin: 0;
     padding: 0;
@@ -50,14 +52,16 @@ button {
 /* Add responsive padding for mobile */
 @media (max-width: 768px) {
     .container {
-        padding: 0 24px; /* Slightly less padding on mobile but still more than before */
+        width: 100%;
+        padding: 0 24px;
     }
 }
 
 /* Add even smaller padding for very small screens */
 @media (max-width: 480px) {
     .container {
-        padding: 0 20px; /* Minimum padding for very small screens */
+        width: 100%;
+        padding: 0 20px;
     }
 }
 
@@ -546,7 +550,7 @@ button {
 .benefit-row {
     display: flex;
     align-items: center;
-    gap: 60px; /* Adjust gap as needed */
+    gap: 32px; /* Reduced from 60px */
     margin-bottom: 80px; /* Space between rows */
 }
 
@@ -582,10 +586,19 @@ button {
 }
 
 .benefit-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px; /* Add rounded corners to images */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+    width: 600px; /* Increased from 500px */
+    height: 400px; /* Increased from 300px */
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Add responsive styles for benefit images */
+@media (max-width: 768px) {
+    .benefit-image img {
+        width: 100%;
+        height: 250px; /* Increased from 200px for mobile */
+    }
 }
 
 /* Responsive Styles for Benefits Section */
