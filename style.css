@@ -725,7 +725,7 @@ span.strikethrough-price {
 
 .pricing-plan-dropdown {
     background-color: #FFFFFF;
-    border: 1px solid #CEC0AD;
+    border: 1px solid #101010;
     border-radius: 50px;
     padding: 15px 20px;
     font-family: 'LT Superior', sans-serif;
@@ -765,7 +765,7 @@ span.strikethrough-price {
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    border: 1px solid #E2D3BB;
+    border: 1px solid #101010;
     padding: 32px 24px;
     position: relative;
     min-width: 0; /* Allow cards to shrink below min-content */
@@ -1237,7 +1237,7 @@ span.strikethrough-price {
 }
 
 .popup-content {
-    background-color: #F8F5F0;
+    background-color: #FFFFFF;
     padding: 40px;
     border-radius: 20px;
     max-width: 450px;
