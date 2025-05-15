@@ -391,5 +391,16 @@
         s.parentNode.insertBefore(t, s);
       })();
     </script>
+    
+    <!-- Facebook Ad Button Click Tracking -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.hero-cta, .explainer-cta, .checkout-cta, .navbar-cta, .footer-cta, .popup-cta').forEach(btn => {
+          btn.addEventListener('click', () => {
+            fbq('trackCustom', 'LPButtonClick', {button_text: btn.textContent.trim()});
+          });
+        });
+      });
+    </script>
 </body>
 </html>
