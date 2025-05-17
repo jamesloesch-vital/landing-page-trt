@@ -1048,7 +1048,7 @@ span.strikethrough-price {
 
 .faq-item {
     background-color: #d9d9d9; /* Accent Background */
-    border-radius: 90px; /* Very rounded corners as per PRD */
+    border-radius: 0; /* Remove rounded corners */
     overflow: hidden; /* Needed for smooth transition */
 }
 
@@ -1085,7 +1085,7 @@ span.strikethrough-price {
     overflow: hidden;
     transition: max-height 0.3s ease, padding 0.3s ease;
     background-color: #fff; /* Slightly different background for answer? Optional */
-    border-radius: 0 0 20px 20px; /* Optional: Round bottom corners if bg differs */
+    border-radius: 0; /* Remove rounded corners */
 }
 
 .faq-answer p {
